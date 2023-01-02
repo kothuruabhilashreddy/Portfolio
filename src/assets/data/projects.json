@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Card One",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni ",
+        "image" : "location"
+    },
+    {
+        "title": "Card two",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni ",
+        "image" : "location"
+    },
+    {
+        "title": "Card three",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni ",
+        "image" : "location"
+    }
+]
