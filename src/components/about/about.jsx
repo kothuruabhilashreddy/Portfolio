@@ -1,8 +1,6 @@
 import React from 'react';
 import './about.css';
-import ME from '../../assets/img/about/2.png'
-
-import * as projectsList from '../../assets/data/projects.json' ;
+import * as projectsList from '../../assets/data/projects.json';
 
 function generateProjectsBlock(projects){
     console.log(projects);
@@ -11,11 +9,10 @@ function generateProjectsBlock(projects){
     projects.forEach(project => {
         if(invert){
             results.push(<li class="timeline" key={project.title.replace(" ","-")}>
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src={ME} alt="..." /></div>
+                <div class="timeline-image"><img class="rounded-circle img-fluidi" src={process.env.PUBLIC_URL + project.image} alt="..." /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h4>{project.title}</h4>
-                        <h4 class="subheading">{project.title}</h4>
                     </div>
                     <div class="timeline-body"><p class="text-muted">{project.text}</p></div>
                 </div>
@@ -24,11 +21,10 @@ function generateProjectsBlock(projects){
         else{
             results.push(
                 <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src={ME} alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluidi" src={process.env.PUBLIC_URL + project.image} alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>{project.title}</h4>
-                                <h4 class="subheading">{project.title}</h4>
                             </div>
                             <div class="timeline-body"><p class="text-muted">{project.text}</p></div>
                         </div>
@@ -47,19 +43,15 @@ const about = () => {
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
-                        <h2>About this page</h2>
-                        <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
+                        <h2>About me</h2>
+                        <p class="lead">I was born and raised in Hyderabad, India. I'm a Software Engineering and I love to contribute and make an impact on code. My everyday activities included going to work, reading books and playing games. My technical interests: Pega PRPC, Full Stack and Computer Vision</p>
                         <div class="container px-4">
                             {generateProjectsBlock(myProjects)}
                         </div>
                     </div>
                 </div>
             </div>
-
-            <section class="page-section" id="about">
-            
-        </section>
-        </section>
+    </section>
   )
 }
 

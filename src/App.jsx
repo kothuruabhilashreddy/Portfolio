@@ -13,12 +13,13 @@ import "bootstrap";
 import { useState } from 'react';
 function App() {
   const [currentPage, setCurrentPage] = useState('');
+  const [toggleFlag, setToggleFlag]= useState('false');
   return (
     <div className="App">
-      <Nav setCurrentPage={setCurrentPage}/>
-      {currentPage==='' && <><Header /><About /><Services /><Contact /></>}
-      {/* {currentPage==='projects' && <><Projects /></>}
-      {currentPage==='experience' && <><Experience /></>} */}
+      <Nav setCurrentPage= {setCurrentPage}/>
+      {currentPage==='' && <><Header/><About /><Contact /></>}
+      {currentPage==='projects' && <><Projects /></>}
+      {currentPage==='experience' && <><Experience /></>}
       <Footer />
     </div>
   );

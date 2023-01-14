@@ -7,13 +7,15 @@ function header() {
   return (
     <header>
       <div className="container header__container" id="header">
-        <h5>Hello I'm</h5>
         <h1>Kothuru Abhilash Reddy</h1>
-        <h5 className="text-light">Pega Developer</h5>
+        <h5 className="text-light">Software Developer</h5>
         <CTA />
         <HeaderSocials />
-        <div className='me'>
-          <img src={ME} alt="me" />
+        <div className='screen'>
+          <div className='welcome'>Hello & Welcome!</div>
+          <div className='me'>
+            <img src={ME} alt="me" />
+          </div>
         </div>
 
         <a href="#contact" className='scroll__down'>Scroll Down</a>

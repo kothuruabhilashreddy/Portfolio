@@ -833,3 +833,7 @@
   .input-group .form-select.is-invalid:focus {
     z-index: 3;
   }
+
+.contact-section {
+    color:#fff;
+  }

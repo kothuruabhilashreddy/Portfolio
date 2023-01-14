@@ -2,8 +2,11 @@ import React from 'react';
 import './contact.css';
 
 const contact = () => {
+    function clearData(){
+        document.getElementById('contactForm').reset();
+    }
   return (
-    <section class="page-section" id="contact">
+    <section class="contact-section" id="contact">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6 text-center">
@@ -45,7 +48,7 @@ const contact = () => {
                                 </div>
                             </div>
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
+                            <div class="d-grid"><button class="btn btn-primary btn-xl" id="submitButton" type="submit" onClick={()=>{document.getElementById('contactForm').reset();}}>Submit</button></div>
                         </form>
                     </div>
                 </div>
