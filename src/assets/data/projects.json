@@ -1,17 +1,17 @@
 [
     {
-        "title": "Card One",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni ",
-        "image" : "location"
+        "title": "Exploring places /\\",
+        "text": "I'm fond of travelling. I often visit places which put me out of my comfort to experience the real meaning of life",
+        "image" : "/img/about/1.png"
     },
     {
-        "title": "Card two",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni ",
-        "image" : "location"
+        "title": "Now I'm a Graduate :)",
+        "text": "I graduated in 2021 with a major in computer science.",
+        "image" : "/img/about/2.png"
     },
     {
-        "title": "Card three",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni ",
-        "image" : "location"
+        "title": "The Journey continues.....",
+        "text": "I started working in the IT sector in a full time role as an Associate Applications Engineer at Pega Systems.",
+        "image" : "/img/about/3.png"
     }
 ]
