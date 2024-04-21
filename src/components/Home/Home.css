@@ -1,0 +1,21 @@
+.home {
+    background-color: #fff;
+}
+
+.home-intro {
+    display: flex;
+}
+
+.home-profile-img {
+    height: 35vh;
+    width: 25vh;
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-profile-img img {
+    height: 80%;
+    width: 90%;
+}

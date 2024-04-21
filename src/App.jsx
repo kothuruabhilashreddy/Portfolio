@@ -7,6 +7,7 @@ import Header from './components/header/header';
 import Nav from './components/nav/nav';
 import Services from './components/services/services';
 import Projects from './components/projects/projects';
+import Home from './components/Home/Home';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import "bootstrap";
@@ -16,11 +17,13 @@ function App() {
   const [toggleFlag, setToggleFlag]= useState('false');
   return (
     <div className="App">
-      <Nav setCurrentPage= {setCurrentPage}/>
+      {/* <Nav setCurrentPage= {setCurrentPage}/>
       {currentPage==='' && <><Header/><About /><Contact /></>}
       {currentPage==='projects' && <><Projects /></>}
       {currentPage==='experience' && <><Experience /></>}
-      <Footer />
+      <Footer /> */}
+      <Home />
+
     </div>
   );
 }
