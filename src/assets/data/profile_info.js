@@ -5,7 +5,18 @@ const profile_info = {
     linkedin: "linkedin",
     github: "github",
     email: "akothuru@cs.stonybrook.edu",
-    contact: "+1 934-451-9570"
+    contact: "+1 934-451-9570",
+    contentCards: [
+        {
+            'heading': 'INTERESTS',
+            'content': 'Full stack development'
+        },
+        {
+            'heading': 'BIOGRAPHY',
+            'content': 'Abhilash Reddy Kothuru is a Masters Student at StonyBrook University'
+        }
+    ]
+    
 }
 
 export default profile_info;
