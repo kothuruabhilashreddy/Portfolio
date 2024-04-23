@@ -15,6 +15,13 @@ const profile_info = {
             'heading': 'BIOGRAPHY',
             'content': 'Abhilash Reddy Kothuru is a Masters Student at StonyBrook University'
         }
+    ],
+    navItems : [
+        { id: 1, label: 'Home', path:'/' },
+        { id: 2, label: 'Resume', path:'/Resume' },
+        { id: 3, label: 'Experience', path:'/Experience' },
+        { id: 4, label: 'Projects', path:'/Projects' },
+        { id: 5, label: 'Coursework', path:'/Coursework' }
     ]
     
 }

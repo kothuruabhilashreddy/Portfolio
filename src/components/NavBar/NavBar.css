@@ -1,0 +1,21 @@
+.nav-bar {
+    border: 2px solid green;
+    flex: '1' ;
+}
+
+.nav-list li {
+    display: block;
+    text-align: center;
+    padding: 2vh
+}
+
+.nav-list a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-list a.active {
+    color: red;
+    text-decoration: solid;
+}
+

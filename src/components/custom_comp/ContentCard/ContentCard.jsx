@@ -4,7 +4,7 @@ import './ContentCard.css'
 const ContentCard = ({heading, content}) => {
     return (
         <div className='content-card'>
-            <heading>{heading}</heading>
+            <div>{heading}</div>
             <p>
                 {content}
             </p>
