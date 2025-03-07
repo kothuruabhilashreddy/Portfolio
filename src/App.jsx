@@ -1,27 +1,11 @@
 import './App.css';
-import About from './components/about/about';
-import Contact from './components/contact/contact';
-import Experience from './components/experience/experience';
-import Footer from './components/footer/footer';
-import Header from './components/header/header';
-import Nav from './components/nav/nav';
-import Services from './components/services/services';
-import Projects from './components/projects/projects';
 
-import 'bootstrap/dist/css/bootstrap.css';
-import "bootstrap";
-import { useState } from 'react';
+import Home from './components/home/home';
 function App() {
-  const [currentPage, setCurrentPage] = useState('');
-  const [toggleFlag, setToggleFlag]= useState('false');
+
   return (
-    <div className="App">
-      <Nav setCurrentPage= {setCurrentPage}/>
-      {currentPage==='' && <><Header/><About /><Contact /></>}
-      {currentPage==='projects' && <><Projects /></>}
-      {currentPage==='experience' && <><Experience /></>}
-      <Footer />
-    </div>
+      // <Home />
+      <div>Coming Soon..</div>
   );
 }
 
